@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background: url(logo/trike1.png) no-repeat;
+    background-size: cover;
+}
+
+.map-container {
+    border-radius: 8px; 
+    overflow: hidden; 
+
+}
+
+iframe {
+    width: 45%; 
+    position: absolute;
+    top: 10%;
+    right: 50%;
+
+}
+
+.container {
+    position: absolute;
+    top: 3%;
+    left: 53%;
+    height: 80%;
+    width: 505.5px;
+    margin: 0px;
+    background: white;
+    padding: 40px 50px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin: auto;
+}
+label {
+    display: block;
+    margin: 5px 0 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color:  #2fabca;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 104.5%;
+}
+button:hover {
+    background-color: #0588a8;
+}
